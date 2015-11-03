@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("O sentido da vida é ", 43-1)
+    fmt.Println("A resposta para a vida o universo e tudo mais é ", 43-1)
 }
