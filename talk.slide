@@ -1,0 +1,82 @@
+Conhecendo Go
+Franca, 14 de novembro, 2014
+
+Daniel Gerep
+Plano Bê
+http://gonux.info
+@danielgerep
+
+* Tenha em mente
+
+- Go é uma linguagem compilada
+- Garbage collected
+- Tipagem estática
+
+
+* Executando código Go
+
+ $ go run ola.go
+
+.play ola.go
+
+O comando *go run* compila e executa o arquivo
+
+ $ go build
+
+O comando *go build* gera um binário
+
+* Import
+
+É utilizado para declarar os pacotes que são usados pelo arquivo.
+
+.code import.go
+
+ $ go run import.go iTerior
+
+* Docs
+
+.link http://golang.org
+
+ $ godoc -http=:6060
+
+################## VARIÁVEIS E DECLARAÇÕES ##################
+
+* Variáveis e declarações
+
+.play variavel.go /START OMIT/,/STOP OMIT/
+
+Inferência de tipo
+
+.play inferencia.go /START OMIT/,/STOP OMIT/
+
+* Variáveis e declarações
+
+.play variaveis_inline.go /START OMIT/,/STOP OMIT/
+
+.play variaveis_inline_inferencia.go /START OMIT/,/STOP OMIT/
+
+################## LOOP ##################
+
+* Loop
+
+.play for.go
+
+################## FUNÇÕES ##################
+
+* Funções
+
+.code funcoes.go
+
+* Funções
+
+.play funcao_dois_retornos.go /START OMIT/,/STOP OMIT/
+
+* Funções
+
+.play funcao_dois_retornos_com_omissao.go /START OMIT/,/STOP OMIT/
+
+################## ARRAYS ##################
+
+* Arrays
+
+.play arrays.go /START OMIT/,/STOP OMIT/

@@ -1,0 +1,18 @@
+Go
+
+Compilada
+Static typing
+Garbage collected
+
+Executando código Go
+
+ola.go
+
+go run ola.go
+
+O comando go run compila e executa o arquivo.
+
+go run --work ola.go
+
+Para compila
+
